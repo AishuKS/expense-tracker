@@ -1,7 +1,7 @@
 import React, {useState, useMemo} from 'react'
 import styled from "styled-components";
-import bg from './img/bg.png'
-import {MainLayout} from './styles/layouts'
+import bg from './images/bg.png'
+import {MainLayout} from './themes/layouts'
 import Orb from './components/orb/orb'
 import Navigation from './components/navigation/navigation'
 import Dashboard from './components/dashboard/dashboard';
