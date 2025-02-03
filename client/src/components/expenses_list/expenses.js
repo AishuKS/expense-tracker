@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import { useGlobalContext } from '../../context/globalContext';
+import { useGlobalContext } from '../../context/globalContext.js';
 import { InnerLayout } from '../../themes/layouts.js';
-import IncomeItem from '../incomeItem/incomeItem';
-import ExpenseForm from './expenseForm';
+import IncomeItem from '../income_item/incomeItem.js';
+import ExpenseForm from './expenseForm.js';
 
 function Expenses() {
     const {addIncome,expenses, getExpenses, deleteExpense, totalExpenses} = useGlobalContext()

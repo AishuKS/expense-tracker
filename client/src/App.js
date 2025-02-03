@@ -2,11 +2,11 @@ import React, {useState, useMemo} from 'react'
 import styled from "styled-components";
 import bg from './images/bg.png'
 import {MainLayout} from './themes/layouts'
-import Orb from './components/orb/orb'
-import Navigation from './components/navigation/navigation'
+import Orb from './components/loader/orb'
+import Navigation from './components/navbar/navigation'
 import Dashboard from './components/dashboard/dashboard';
-import Income from './components/income/income'
-import Expenses from './components/expenses/expenses';
+import Income from './components/income_list/income'
+import Expenses from './components/expenses_list/expenses';
 import { useGlobalContext } from './context/globalContext';
 
 function App() {
